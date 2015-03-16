@@ -29,3 +29,5 @@ plt.hold
 fx = sp.linspace(0,x[-1], 1000) # generate X-values for plotting
 plt.plot(fx, f1(fx), linewidth=4)
 plt.legend(["d=%i" % f1.order], loc="upper left")
+
+#test
